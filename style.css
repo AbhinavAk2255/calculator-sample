@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Kanit:wght@100&family=Maven+Pro&family=Noto+Sans+JP:wght@100&family=Open+Sans:wght@300&family=Oswald:wght@200&family=Poppins:wght@500&family=Roboto+Mono:wght@100&family=Tilt+Prism&family=Ysabeau+SC:wght@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, black,#3a4452)
+}
+
+.calculator{
+    border: 1px solid white;
+    border-radius: 16px;
+    background-color: transparent;
+    box-shadow: 0px 3px 15px rgb(113, 115, 119,0.5);
+    padding: 20px;
+
+}
+input{
+    width: 350px;
+    border: none;
+    padding: 20px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(84, 84, 84,0.1);
+    font-size: 40px;
+    text-align: end;
+    cursor: pointer;
+
+}
+input::placeholder{
+    color: white;
+}
+button{
+    font-weight: bold;
+    border: none;
+    width: 70px;
+    height: 70px;
+    background: transparent;
+    margin: 10px;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.5);
+    cursor: pointer;
+}
+.equal{
+    background-color: #fb7c14;
+}
+.operator{
+    color: #83f52c;
+}
