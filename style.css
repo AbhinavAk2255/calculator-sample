@@ -16,9 +16,9 @@ body{
 }
 
 .calculator{
-    border: 1px solid white;
-    border-radius: 16px;
-    background-color: transparent;
+    border: 1px solid #607D8B;
+    border-radius: 64px;
+    background-color: black;
     box-shadow: 0px 3px 15px rgb(113, 115, 119,0.5);
     padding: 20px;
 
@@ -33,6 +33,7 @@ input{
     font-size: 40px;
     text-align: end;
     cursor: pointer;
+    color: white;
 
 }
 input::placeholder{
@@ -48,8 +49,9 @@ button{
     border-radius: 50%;
     color: white;
     font-size: 20px;
-    box-shadow: -8px -8px 15px rgba(255,255,255,0.5);
+    box-shadow: 3px 1px 5px 4px rgba(255,255,255,0.3);
     cursor: pointer;
+    
 }
 .equal{
     background-color: #fb7c14;
